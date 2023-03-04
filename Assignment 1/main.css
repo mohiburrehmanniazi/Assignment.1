@@ -1,0 +1,91 @@
+body{
+ background-color: black;
+    background-image: url(pasta2.jpg);
+ background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+backdrop-filter: blur(10px);
+backdrop-filter: ;}
+
+
+
+.box{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+width: 50%;
+margin: auto;
+height: 60vh;
+}
+
+#inbox{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-top: -14vh;}
+
+span{font-size: 1.2em;
+left: 85vh;}
+
+#inbox input 
+{width: 25vh;
+    padding: 10px;
+border: 2px solid rgba(255,255,255,0.25);
+background-color: transparent;
+border-radius: 5px;
+outline: none;
+color: white;
+font-size: 1em;
+}
+
+#inbox span{
+    position: absolute;
+    padding: 10px;
+    color:black;
+    transition: 0.5s;
+   
+    
+}
+
+#inbox input:valid ~ span,
+#inbox input:focus ~ span{
+    color: #00dfc4;
+    transform: translateX(10px) translateY(-28px);
+    font-size: 0.8em;
+    padding: 0 10px;
+    background: transparent;
+    border-left: 1px solid #00dfc4;
+    border-right: 1px solid #00dfc4;
+    border-top: 1px solid #00dfc4;
+    border-radius: 3px;
+    letter-spacing: 0.05;}
+
+   
+
+#inbox input:valid,
+#inbox input:focus{
+    border: 1px solid #00dfc4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
